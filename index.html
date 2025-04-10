@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Pareek - Flutter Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Rahul Pareek</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Front Page -->
+    <section class="front-page">
+        <div class="content">
+            <h1>Hi, I’m Rahul,</h1>
+            <h2>Flutter Developer</h2>
+            <p>Front End Developer / App Enthusiast</p>
+            <a href="#contact" class="btn">Contact Me!</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+
+    <section class="page" id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hi, I’m Rahul Pareek, a passionate Flutter Developer with a strong foundation in Dart and C programming. I have a keen interest in building innovative and user-friendly mobile applications that solve real-world problems. Currently, I’m working
+                on an E-commerce App and have recently developed a Currency Converter App. When I’m not coding, you’ll find me strategizing my next move on the chessboard.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="page" id="skills">
+        <div class="content">
+            <h2 class="skills-heading">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-box" onclick="popOut(this)">
+                    <h3>Flutter</h3>
+                </div>
+                <div class="skill-box" onclick="popOut(this)">
+                    <h3>C Programming</h3>
+                </div>
+                <div class="skill-box" onclick="popOut(this)">
+                    <h3>dart language</h3>
+                </div>
+                <div class="skill-box" onclick="popOut(this)">
+                    <h3>app development</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="page" id="projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1: Currency Converter App -->
+                <div class="project-box">
+                    <h3>Currency Converter App</h3>
+                    <p>A user-friendly mobile application that converts currencies in real-time using up-to-date exchange rates.</p>
+                    <a href="https://github.com/Rahul4-bot/Currency-app.git" target="_blank" class="project-link">View on GitHub</a>
+                </div>
+
+                <!-- Project 2: E-commerce App -->
+                <div class="project-box">
+                    <h3>E-commerce App</h3>
+                    <p>A full-fledged e-commerce application with features like product listing, cart management, and user authentication.</p>
+                    <a href="https://github.com/your-username/ecommerce-app" target="_blank" class="project-link">work in progress...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="page" id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>📧 Email: <a href="mailto:pareekrahul000@gmail.com">pareekrahul@gmail.com</a></p>
+            <p>📱 Phone: <a href="tel:+919509434270">+91 9509434270</a> </p>
+            <p>🌐 Portfolio: <a href="https://www.rahulpareek.com">rahulpareek.com</a></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
